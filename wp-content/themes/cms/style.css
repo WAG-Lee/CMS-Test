@@ -9,7 +9,7 @@ Text Domain: cms
 */
 
 /* CMS Style */
-*{border:1px solid red;}
+
 @import url("css/root.css");
 
 html {
