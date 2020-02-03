@@ -1,0 +1,34 @@
+
+ADVANCED CUSTOM FIELDS _________________________________________________________
+
+||------ Repeater ------||
+
+<?php if( have_rows('repeater_field_name') ): ?>
+  <?php while ( have_rows('repeater_field_name') ) : the_row(); ?>
+    <?php the_sub_field('sub_field_name'); ?>
+  <?php endwhile; ?>
+<?php endif; ?>
+
+BOOTSTRAP ______________________________________________________________________
+
+||------ Buttons ------||
+
+<button type="button" class="btn btn-primary">Primary</button>
+
+btn-outline-light
+
+btn-block
+btn-lg
+btn-sm
+
+PARALLAXIE _____________________________________________________________________
+
+$('.parallaxie').parallaxie({
+  speed: 0.5,
+});
+
+USEFUL BITS ____________________________________________________________________
+
+||------ Icon Blurb ------||
+
+Go to <a href="https://fontawesome.com/icons" target="_blank">Font Awesome</a> and copy & paste the HTML code here.
